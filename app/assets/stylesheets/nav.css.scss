@@ -6,7 +6,17 @@ header {
     padding: 0;
     list-style-type: none;
   }
+
+  li {
+    float: right;
+  }
+
   a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: block;
+    width: 70px;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -20,3 +30,4 @@ header {
 .right-nav {
   float: right;
 }
+
